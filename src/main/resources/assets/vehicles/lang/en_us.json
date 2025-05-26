@@ -1,5 +1,7 @@
 {
   "item.vehicles.fuel_can": "Fuel Can",
 
+  "block.vehicles.vehicle_controller": "Vehicle Controller",
+
   "itemGroup.vehicles_tab": "Vehicles"
 }

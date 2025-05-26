@@ -1,6 +1,7 @@
 package de.kuschelcraft.vehicles;
 
 import com.mojang.logging.LogUtils;
+import de.kuschelcraft.vehicles.block.ModBlocks;
 import de.kuschelcraft.vehicles.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class Vehicles
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
