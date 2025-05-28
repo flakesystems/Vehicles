@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "minecraft:activator_rail"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "#R#",
+    "#N#",
+    "#R#"
+  ],
+  "result": {
+    "count": 2,
+    "item": "vehicles:vehicle_controller"
+  }
+}

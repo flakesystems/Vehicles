@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "vehicles:block/oily_stone" }
+  }
+}

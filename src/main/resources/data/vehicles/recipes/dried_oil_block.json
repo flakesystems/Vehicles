@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "vehicles:dried_oil"
+    }
+  },
+  "result": {
+    "item": "vehicles:dried_oil_block",
+    "count": 1
+  }
+}

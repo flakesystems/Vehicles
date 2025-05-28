@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "vehicles:block/dried_oil_block_top",
+    "side": "vehicles:block/dried_oil_block_side"
+  }
+}

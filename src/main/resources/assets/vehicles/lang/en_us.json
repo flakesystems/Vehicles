@@ -1,7 +1,12 @@
 {
   "item.vehicles.fuel_can": "Fuel Can",
+  "item.vehicles.oily_extract": "Oily Extract",
+  "item.vehicles.dried_oil": "Dried Oil",
 
   "block.vehicles.vehicle_controller": "Vehicle Controller",
+  "block.vehicles.dried_oil_block": "Dried Oil Block",
+  "block.vehicles.oily_stone": "Oily Stone",
+  "block.vehicles.oily_deepslate": "Oily Deepslate",
 
   "itemGroup.vehicles_tab": "Vehicles"
 }

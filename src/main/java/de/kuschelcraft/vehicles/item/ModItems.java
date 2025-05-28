@@ -14,6 +14,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> FUEL_CAN = ITEMS.register("fuel_can",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VEHICLES_TAB)));
+    public static final RegistryObject<Item> OILY_EXTRACT = ITEMS.register("oily_extract",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VEHICLES_TAB)));
+    public static final RegistryObject<Item> DRIED_OIL = ITEMS.register("dried_oil",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VEHICLES_TAB)));
 
 
     public static void register(IEventBus eventBus) {

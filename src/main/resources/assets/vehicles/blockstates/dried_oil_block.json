@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "vehicles:block/dried_oil_block" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vehicles:dried_oil_block"
+    }
+  ],
+  "result": {
+    "item": "vehicles:dried_oil",
+    "count": 9
+  }
+}

@@ -26,6 +26,22 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()
             ), ModCreativeModeTab.VEHICLES_TAB);
 
+    public static final RegistryObject<Block> DRIED_OIL_BLOCK = registerBlock("dried_oil_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+            ), ModCreativeModeTab.VEHICLES_TAB);
+
+    public static final RegistryObject<Block> OILY_STONE = registerBlock("oily_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+            ), ModCreativeModeTab.VEHICLES_TAB);
+
+    public static final RegistryObject<Block> OILY_DEEPSLATE = registerBlock("oily_deepslate",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+            ), ModCreativeModeTab.VEHICLES_TAB);
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
