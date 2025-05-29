@@ -3,6 +3,8 @@ package de.kuschelcraft.vehicles;
 import com.mojang.logging.LogUtils;
 import de.kuschelcraft.vehicles.block.ModBlocks;
 import de.kuschelcraft.vehicles.item.ModItems;
+import de.kuschelcraft.vehicles.world.feature.ModConfiguredFeatures;
+import de.kuschelcraft.vehicles.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +28,9 @@ public class Vehicles
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
