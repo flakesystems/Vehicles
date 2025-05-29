@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vehicles:dried_oil_block",
+    "vehicles:oily_deepslate",
+    "vehicles:oily_stone",
+    "vehicles:vehicle_controller"
+  ]
+}
