@@ -8,5 +8,8 @@
   "block.vehicles.oily_stone": "Oily Stone",
   "block.vehicles.oily_deepslate": "Oily Deepslate",
 
-  "itemGroup.vehicles_tab": "Vehicles"
+  "itemGroup.vehicles_tab": "Vehicles",
+
+  "key.category.vehicles.vehicles": "Vehicles",
+  "key.vehicles.start_engine": "Start Engine"
 }
